@@ -22,11 +22,74 @@ body {
   font-weight: 500;
   text-decoration: none;
 }
-.contacts {
-  color: 
-  #757575
+.telephone {
+  color: #757575;
   font-size: 14px;
   line-height: 100%;
   font-weight: 500;
+  text-decoration: none;
+}
+.mail {
+  color: #2196f3;
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 500;
+  text-decoration: none;
+}
+.main-header {
+  color: #ffffff;
+  font-size: 44px;
+  line-height: 116%;
+  font-weight: 900;
+}
+.button-primary {
+  background-color: #2196f3;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.list-primary {
+  color: #212121;
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 700;
+}
+.text-primary {
+  color: #757575;
+  font-size: 14px;
+  line-height: 146%;
+  font-weight: 400;
+}
+.header-third {
+  color: #212121;
+  font-size: 36px;
+  line-height: 100%;
+  font-weight: 700;
+}
+.personal-data {
+  color: #212121;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 500;
+}
+.job-position {
+  color: #757575;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+.company-location {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 146%;
+  font-weight: 400;
+}
+.contact-links {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 146%;
+  font-weight: 400;
   text-decoration: none;
 }
