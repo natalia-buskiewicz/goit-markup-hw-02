@@ -30,6 +30,7 @@ body {
   line-height: 1.14;
   font-weight: 500;
   text-decoration: none;
+  font-style: medium;
 }
 .mail {
   color: #757575;
@@ -110,6 +111,7 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+  line-height: 1.63;
   cursor: pointer;
 }
 .button-secondary:hover {
@@ -119,12 +121,12 @@ body {
 .portfolio-header {
   color: #212121;
   font-size: 18px;
-  line-height: 171%;
+  line-height: 2;
   font-weight: 700;
 }
 .portfolio-text {
   color: #757575;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 1.88;
   font-weight: 400;
 }
