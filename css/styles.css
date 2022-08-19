@@ -1,14 +1,11 @@
-.button-active .link:active {
-  color: pink;
-}
 body {
   font-family: "Roboto", "Raleway" sans-serif;
-  color: #e5e5e5;
+  background-color: #e5e5e5;
 }
 .header-primary {
   color: #000000;
   font-size: 26px;
-  line-height: 100%;
+  line-height: 1.19;
   font-weight: 700;
   text-decoration: none;
 }
@@ -18,29 +15,26 @@ body {
 .header-secondary {
   color: #000000;
   font-size: 14px;
-  line-height: 100%;
-  font-weight: 500;
-  text-decoration: none;
-}
-.telephone {
-  color: #757575;
-  font-size: 14px;
-  line-height: 100%;
-  font-weight: 500;
-  text-decoration: none;
-}
-.mail-studio {
-  color: #2196f3;
-  font-size: 14px;
-  line-height: 100%;
+  line-height: 1.14;
   font-weight: 500;
   text-decoration: none;
 }
 
-.mail-portfolio {
+.link:hover {
+  color: #2196f3;
+}
+
+.telephone {
   color: #757575;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 1.14;
+  font-weight: 500;
+  text-decoration: none;
+}
+.mail {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.14;
   font-weight: 500;
   text-decoration: none;
 }
@@ -48,68 +42,67 @@ body {
 .main-header {
   color: #ffffff;
   font-size: 44px;
-  line-height: 116%;
+  line-height: 1.36;
   font-weight: 900;
 }
 .button-primary {
   background-color: #2196f3;
-  border: none;
+  border-color: #000000;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+}
+.button-primary:hover {
+  background-color: #e5e5e5;
+  color: #000000;
 }
 .list-primary {
   color: #212121;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 1.14;
   font-weight: 700;
 }
 .text-primary {
   color: #757575;
   font-size: 14px;
-  line-height: 146%;
+  line-height: 1.71;
   font-weight: 400;
 }
 .header-third {
   color: #212121;
   font-size: 36px;
-  line-height: 100%;
+  line-height: 1.67;
   font-weight: 700;
 }
 .personal-data {
   color: #212121;
   font-size: 16px;
-  line-height: 100%;
+  line-height: 1.19;
   font-weight: 500;
 }
 .job-position {
   color: #757575;
   font-size: 16px;
-  line-height: 100%;
+  line-height: 1.19;
   font-weight: 400;
 }
 .company-location {
   color: #ffffff;
   font-size: 14px;
-  line-height: 146%;
+  line-height: 1.71;
   font-weight: 400;
 }
 .contact-links {
   color: #ffffff;
   font-size: 14px;
-  line-height: 146%;
+  line-height: 1.71;
   font-weight: 400;
   text-decoration: none;
 }
-.button-secondary-highlighted {
-  background-color: #2196f3;
-  border: none;
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-}
+
 .button-secondary {
   background-color: #f5f4fa;
   border: none;
@@ -117,6 +110,11 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+  cursor: pointer;
+}
+.button-secondary:hover {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 .portfolio-header {
   color: #212121;
