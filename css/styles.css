@@ -2,18 +2,26 @@ body {
   font-family: "Roboto", "Raleway" sans-serif;
   background-color: #e5e5e5;
 }
+:root {
+  --brand-color: #2196f3;
+  --dark-grey-header: #212121;
+  --light-grey: #757575;
+  --white-color: #ffffff;
+  --black-colour: #000000;
+  --button-background: #f5f4fa;
+}
 .header-primary {
-  color: #000000;
+  color: var(--black-colour);
   font-size: 26px;
   line-height: 1.19;
   font-weight: 700;
   text-decoration: none;
 }
 .highlight {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 .header-secondary {
-  color: #000000;
+  color: var(--dark-grey-header);
   font-size: 14px;
   line-height: 1.14;
   font-weight: 500;
@@ -21,18 +29,11 @@ body {
 }
 
 .link:hover {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 
-.telephone {
-  color: #757575;
-  font-size: 14px;
-  line-height: 1.14;
-  font-weight: 500;
-  text-decoration: none;
-}
-.mail {
-  color: #757575;
+.contacts-header {
+  color: var(--light-grey);
   font-size: 14px;
   line-height: 1.14;
   font-weight: 500;
@@ -40,15 +41,15 @@ body {
 }
 
 .main-header {
-  color: #ffffff;
+  color: var(--white-color);
   font-size: 44px;
   line-height: 1.36;
   font-weight: 900;
 }
 .button-primary {
-  background-color: #2196f3;
-  border-color: #000000;
-  color: #ffffff;
+  background-color: var(--brand-color);
+  border-color: var(--black-colour);
+  color: var(--white-color);
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -56,47 +57,47 @@ body {
   cursor: pointer;
 }
 .button-primary:hover {
-  background-color: #e5e5e5;
-  color: #000000;
+  background-color: var(--button-background);
+  color: var(--black-colour);
 }
 .list-primary {
-  color: #212121;
+  color: var(--dark-grey-header);
   font-size: 14px;
   line-height: 1.14;
   font-weight: 700;
 }
 .text-primary {
-  color: #757575;
+  color: var(--light-grey);
   font-size: 14px;
   line-height: 1.71;
   font-weight: 400;
 }
 .header-third {
-  color: #212121;
+  color: var(--dark-grey-header);
   font-size: 36px;
   line-height: 1.67;
   font-weight: 700;
 }
 .personal-data {
-  color: #212121;
+  color: var(--dark-grey-header);
   font-size: 16px;
   line-height: 1.19;
   font-weight: 500;
 }
 .job-position {
-  color: #757575;
+  color: var(--light-grey);
   font-size: 16px;
   line-height: 1.19;
   font-weight: 400;
 }
 .company-location {
-  color: #ffffff;
+  color: var(--white-color);
   font-size: 14px;
   line-height: 1.71;
   font-weight: 400;
 }
 .contact-links {
-  color: #ffffff;
+  color: var(--white-color);
   font-size: 14px;
   line-height: 1.71;
   font-weight: 400;
@@ -104,9 +105,9 @@ body {
 }
 
 .button-secondary {
-  background-color: #f5f4fa;
+  background-color: var(--button-background);
   border: none;
-  color: #212121;
+  color: var(--dark-grey-header);
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -114,17 +115,17 @@ body {
   cursor: pointer;
 }
 .button-secondary:hover {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--brand-color);
+  color: var(--white-color);
 }
 .portfolio-header {
-  color: #212121;
+  color: var(--dark-grey-header);
   font-size: 18px;
   line-height: 2;
   font-weight: 700;
 }
 .portfolio-text {
-  color: #757575;
+  color: var(--light-grey);
   font-size: 16px;
   line-height: 1.88;
   font-weight: 400;
